@@ -1,0 +1,121 @@
+#reg {
+  height: 569px;
+  background: #eee;
+  padding: 10px 0 20px 0;
+  box-sizing: border-box;
+}
+
+#reg .top {
+  width: 100%;
+  background: #fff;
+  height: 130px;
+  padding-top: 36px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+#reg .top span {
+  display: inline-block;
+  border-left: 2px solid #ccc;
+  padding-left: 15px;
+  color: #444;
+}
+
+#reg .top .sign {
+  width: 112px;
+  height: 32px;
+  border: 1px solid #E5007F;
+  font-size: 12px;
+  line-height: 32px;
+  margin-top: 20px;
+}
+
+#reg .top .sign i {
+  color: #444;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#reg .top .sign a {
+  color: #e91456;
+}
+
+#reg .top .sign a:hover {
+  text-decoration: underline;
+}
+
+#reg .main {
+  width: 100%;
+  height: 379px;
+  background: #fff;
+}
+
+#reg .main .left {
+  width: 435px;
+  height: 100%;
+}
+
+#reg .main .left div {
+  height: 55px;
+  width: 100%;
+  line-height: 70px;
+  font-size: 12px;
+  padding-left: 36px;
+}
+
+#reg .main .left div span {
+  display: inline-block;
+  width: 80px;
+}
+
+#reg .main .left div input {
+  width: 285px;
+  height: 33px;
+  padding-left: 5px;
+  color: #444;
+}
+
+#reg .main .left p {
+  padding-left: 119px;
+  height: 57px;
+  line-height: 65px;
+  font-size: 12px;
+}
+
+#reg .main .left p a {
+  color: #444;
+}
+
+#reg .main .left p a:hover {
+  text-decoration: underline;
+  color: #e91456;
+}
+
+#reg .main .left button {
+  width: 276px;
+  height: 32px;
+  background: #E21357;
+  line-height: 32px;
+  color: #fff;
+  margin-left: 119px;
+}
+
+#reg .main .left button:hover {
+  background: #CC1C23;
+}
+
+#reg .main .left .other {
+  display: inline-block;
+  padding-left: 119px;
+  color: #444;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+#reg .main .left .other a {
+  color: #f00;
+}
+
+#reg .main .left .other a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,252 @@
+.locate {
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  color: #444;
+  font-size: 12px;
+  padding-left: 25px;
+}
+
+.list_left {
+  width: 192px;
+  border: 1px solid #ccc;
+  margin-right: 6px;
+}
+
+.list_left .list_title {
+  height: 30px;
+  width: 190px;
+  background: #eee;
+  line-height: 30px;
+  color: #444;
+  padding-left: 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.list_left .sec_list {
+  min-height: 1px;
+  height: 0;
+  width: 190px;
+  overflow: hidden;
+}
+
+.list_left .sec_list li {
+  padding: 5px 25px;
+  box-sizing: border-box;
+}
+
+.list_left .sec_list li h4 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.list_left .sec_list li a {
+  color: #444;
+  font-size: 12px;
+}
+
+.list_left .sec_list li a:hover {
+  text-decoration: underline;
+  color: #E91456;
+}
+
+.list_left .sec_list li:nth-of-type(1) {
+  height: 72px;
+}
+
+.list_left .sec_list li:nth-of-type(2) {
+  height: 46px;
+}
+
+.list_left .sec_list li:nth-of-type(3) {
+  height: 100px;
+}
+
+.list_left .sec_list li:nth-of-type(4) {
+  height: 94px;
+}
+
+.list_left .sec_list li:nth-of-type(5) {
+  height: 145px;
+}
+
+.list_left .sec_list li:nth-of-type(6) {
+  height: 140px;
+}
+
+.list_left .sec_list li:nth-of-type(7) {
+  height: 76px;
+}
+
+.list_left .list_hot {
+  height: 30px;
+  width: 190px;
+  line-height: 30px;
+  color: #E91456;
+  padding-left: 25px;
+  font-size: 14px;
+}
+
+.list_right {
+  width: 992px;
+  border: 1px solid #ccc;
+  height: 1572px;
+}
+
+.list_right .list_choose {
+  height: 92px;
+  border-bottom: 1px solid #ccc;
+}
+
+.list_right .list_choose p {
+  height: 45px;
+  line-height: 45px;
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+.list_right .list_choose p a {
+  color: #444;
+}
+
+.list_right .list_choose p a i {
+  padding: 0 5px;
+}
+
+.list_right .list_choose p a:hover {
+  color: #E91456;
+  text-decoration: underline;
+}
+
+.list_right .list_order {
+  height: 41px;
+  border-bottom: 1px solid #ccc;
+  padding-left: 15px;
+  line-height: 40px;
+  font-size: 12px;
+}
+
+.list_right .list_order div {
+  background: #eee;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 5px;
+  margin-right: 20px;
+}
+
+.list_right .list_order div a {
+  color: #444;
+}
+
+.list_right .list_order div a:hover {
+  color: #E91456;
+  text-decoration: underline;
+}
+
+.list_right .list_order div:nth-of-type(1) {
+  margin-left: 15px;
+}
+
+.list_right .list_order div:nth-of-type(3) {
+  margin-right: 425px;
+}
+
+.list_right .list_item {
+  height: 1400px;
+  padding-top: 10px;
+}
+
+.list_right .list_item li {
+  width: 230px;
+  height: 337px;
+  border: 1px solid #fff;
+  margin: 0 0 5px 14px;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 2px;
+}
+
+.list_right .list_item li a {
+  padding-bottom: 5px;
+}
+
+.list_right .list_item li a img {
+  width: 218px;
+  padding: 5px;
+}
+
+.list_right .list_item li p {
+  padding-left: 2px;
+}
+
+.list_right .list_item li p a {
+  font-size: 12px;
+  color: #444;
+}
+
+.list_right .list_item li p a:hover {
+  color: #E91456;
+  text-decoration: underline;
+}
+
+.list_right .list_item li div {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 5px 5px 5px;
+}
+
+.list_right .list_item li div span, .list_right .list_item li div i {
+  color: #E91456;
+  font-size: 14px;
+  display: inline-block;
+  float: left;
+}
+
+.list_right .list_item li div i {
+  color: #444;
+  float: right;
+  font-size: 12px;
+}
+
+.list_right .list_item li button {
+  height: 32px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background: #eee;
+  padding: 0 10px;
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+.list_right .list_item li button:hover {
+  background: #e7e7e7;
+}
+
+.list_right .list_item li:hover {
+  border-color: #eee;
+}
+
+.list_right .list_page {
+  height: 39px;
+  color: #444;
+  font-size: 12px;
+  padding-left: 322px;
+}
+
+.list_right .list_page div {
+  padding: 0 5px;
+}
+
+.list_right .list_page div a {
+  color: #444;
+}
+
+.list_right .list_page div a:hover {
+  color: #E91456;
+  text-decoration: underline;
+}
+
+.list_right .list_page span {
+  margin-right: 15px;
+}

@@ -1,0 +1,106 @@
+#footer {
+  border-top: 2px solid #E91455;
+  padding-top: 10px;
+}
+
+#footer .center {
+  width: 100%;
+  height: 181px;
+  background: #fff;
+  padding: 21px 0 10px 0;
+  box-sizing: border-box;
+}
+
+#footer .center .photo {
+  width: 175px;
+  height: 150px;
+  background: url(../img/jlg_2d.jpg) no-repeat 0 0;
+  border-right: 1px solid #ccc;
+}
+
+#footer .center dl {
+  float: left;
+  width: 140px;
+  height: 150px;
+  text-align: center;
+}
+
+#footer .center dl dt {
+  font-weight: 600;
+  font-size: 12px;
+  color: #444;
+  line-height: 30px;
+}
+
+#footer .center dl dd a {
+  font-size: 12px;
+  color: #444;
+  line-height: 30px;
+}
+
+#footer .center dl a:hover {
+  text-decoration: underline;
+  color: #e91456;
+}
+
+#footer .center dl:nth-of-type(5) {
+  border-right: 1px solid #ccc;
+}
+
+#footer .center .phone {
+  box-sizing: border-box;
+  float: left;
+  width: 313px;
+  padding: 40px 0 0 50px;
+}
+
+#footer .center .phone div {
+  font-weight: 600;
+  width: 136px;
+  color: #444;
+}
+
+#footer .center .phone span {
+  display: inline-block;
+  width: 136px;
+  color: #444;
+}
+
+#footer .foot {
+  width: 100%;
+  height: 150px;
+  background: #F8F8F8;
+}
+
+#footer .foot ul {
+  height: 24px;
+  padding-left: 329px;
+}
+
+#footer .foot ul li {
+  float: left;
+}
+
+#footer .foot ul li a {
+  font-size: 12px;
+  width: 67px;
+  color: #444;
+  display: inline-block;
+  border-right: 1px solid #ccc;
+  border-color: #444;
+}
+
+#footer .foot ul li a:hover {
+  color: #e91456;
+  text-decoration: underline;
+}
+
+#footer .foot p {
+  text-align: center;
+  color: #A4A4BF;
+  font-size: 12px;
+}
+
+#footer .foot p:nth-of-type(1) {
+  margin-top: 10px;
+}

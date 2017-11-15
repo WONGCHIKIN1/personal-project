@@ -1,0 +1,137 @@
+$c1:#444;//深黑
+$c2:#A4A4BF;//浅黑
+$c3:#E91456;//粉色
+.top{
+    height: 37px;
+    background: #F7F7F7;
+    span{
+        display: inline-block;
+        line-height: 37px;
+        font-size: 12px;
+        color:$c1;
+    }
+    i{
+        color:$c3;
+        font-weight: 600;
+    }
+    a{
+        display: inline-block;
+        font-size: 12px;
+        color:$c1;
+        height: 37px;
+        line-height: 37px;
+        padding: 0 3px;
+    }
+    a:nth-of-type(1){
+        margin-left: 65px;
+    }
+    a:hover{
+        color:$c3;
+    }
+    .guide{
+        display: inline-block;
+        
+    }
+}
+.nav{
+    .container{height: 100%;}
+    box-sizing:border-box;
+    height: 107px;
+    width: 100%;
+    padding-top: 10px;
+    form{
+        display: inline-block;
+        margin-left: 219px;
+        height: 34px;
+        padding-top: 20px;
+        input{
+            box-sizing:border-box;
+            width: 320px;
+            height: 34px;
+            padding-left: 3px;
+            color:$c1;
+            border:1px solid $c3;
+            outline:none;
+        }
+        button{
+            box-sizing:border-box;
+            width: 81px;
+            height: 34px;
+            background: $c3;
+            color:#fff;
+        }
+        button:hover{
+            background: #cc1c23;
+        }
+    }
+    .cart{
+        position: relative;
+        box-sizing:border-box;
+        width: 158px;
+        height: 30px;
+        border:1px solid #ccc;
+        margin:20px 0 0 216px;
+        font-size: 12px;
+        color:$c1;
+        line-height: 30px;
+        img{
+            display: inline-block;
+            padding-right: 15px;
+        }
+        .num{
+            position: absolute;
+            left:44px;
+            top:3px;
+            padding: 0;
+        }
+        span{
+            position: absolute;
+            left:48px;
+            top:-5px;
+            color:#fff;
+        }
+    }
+}
+.spr{
+    box-sizing:border-box;
+    border-bottom:2px solid $c3;
+    position:relative;
+    .list{
+        box-sizing:border-box;
+        width: 190px;
+        height: 34px;
+        line-height: 34px;
+        color:#fff;
+        background: $c3;
+        font-weight: 600;
+        padding-left: 15px;
+    }
+    .list2{
+        padding-top: 7px;
+        margin-right: 250px;
+        a{
+            display: inline-block;
+            color:$c1;
+            font-weight: 900;
+            width: 103px;
+            border-right:2px solid #ccc;
+            text-align: center; 
+        }
+        a:hover{
+            color:$c3;
+        }
+        a:nth-of-type(1){
+            color:$c3;
+        }
+    }
+    p{
+        font-size: 12px;
+        font-weight: 600;
+        height: 34px;
+        line-height: 34px;
+
+        span{
+            color:$c3;
+        }
+    }
+}

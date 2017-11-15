@@ -1,0 +1,216 @@
+$c1:#444;//深黑
+$c2:#A4A4BF;//浅黑
+$c3:#E91456;//粉色
+.locate{
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    color:$c1;
+    font-size: 12px;
+    padding-left: 25px;
+}
+.list_left{
+        width: 192px;
+        border:1px solid #ccc;
+        margin-right: 6px;
+        // height: 1000px;
+        .list_title{
+            height: 30px;
+            width: 190px;
+            background: #eee;
+            line-height: 30px;
+            color:$c1;
+            padding-left: 25px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .sec_list{
+            min-height:1px;
+            // height: 673px;
+            height: 0;
+            width: 190px;
+            overflow: hidden;
+            li{
+                padding:5px 25px;
+                box-sizing:border-box;
+                h4{
+                    font-weight: 600;
+                    margin-bottom: 5px;
+                }
+                a{
+                    color:$c1;
+                    font-size: 12px;
+                }
+                a:hover{
+                    text-decoration: underline;
+                    color:$c3;
+                }
+            }
+            li:nth-of-type(1){
+                height: 72px;
+            }
+            li:nth-of-type(2){
+                height: 46px;
+            }
+            li:nth-of-type(3){
+                height: 100px;
+            }
+            li:nth-of-type(4){
+                height: 94px;
+            }
+            li:nth-of-type(5){
+                height: 145px;
+            }
+            li:nth-of-type(6){
+                height: 140px;
+            }
+            li:nth-of-type(7){
+                height: 76px;
+            }
+        }
+        .list_hot{
+            height: 30px;
+            width: 190px;
+            line-height: 30px;
+            color:$c3;
+            padding-left: 25px;
+            font-size: 14px;
+        }
+}
+.list_right{
+    width: 992px;
+    border:1px solid #ccc;
+    height: 1572px;
+    .list_choose{
+        height: 92px;
+        border-bottom:1px solid #ccc;
+        p{
+            height: 45px;
+            line-height: 45px;
+            font-size: 12px;
+            padding-left: 15px;
+            a{
+                color:$c1;
+                i{
+                padding:0 5px;
+                }
+            }
+            a:hover{
+                color:$c3;
+                text-decoration: underline;
+            }
+        }
+                
+            
+    }
+    .list_order{
+        height: 41px;
+        border-bottom:1px solid #ccc;
+        padding-left: 15px;
+        line-height: 40px;
+        font-size: 12px;
+        div{
+            background: #eee;
+            height: 30px;
+            line-height: 30px;
+            padding:0 5px;
+            margin-right: 20px;
+            a{
+                color:$c1;
+            }
+            a:hover{
+                color:$c3;
+                text-decoration: underline;
+            }
+        }
+        div:nth-of-type(1){
+            margin-left: 15px;
+        }
+        div:nth-of-type(3){
+            margin-right: 425px;
+        }
+    }
+    .list_item{
+        height: 1400px;
+        padding-top: 10px;
+        li{
+            width: 230px;
+            height: 337px;
+            border:1px solid #fff;
+            margin: 0 0 5px 14px;
+            float:left;
+            box-sizing:border-box;
+            padding:0 2px;
+            a{
+                padding-bottom: 5px;
+                img{
+                width: 218px;
+                padding:5px;
+                }
+            }
+            p{  
+                padding-left: 2px;
+                a{
+                    font-size: 12px;
+                    color:$c1;
+                }
+                a:hover{
+                    color:$c3;
+                    text-decoration: underline;
+                }
+            }
+            div{
+                height: 30px;
+                line-height: 30px;
+                padding:0 5px 5px 5px;
+                span,i{
+                    color:$c3;
+                    font-size: 14px;
+                    display: inline-block;
+                    float:left;
+                }
+                i{
+                    color:$c1;
+                    float:right;
+                    font-size: 12px;
+                }
+            }
+            
+            button{
+                height: 32px;
+                display: inline-block;
+                border:1px solid #ccc;
+                background: #eee;
+                padding:0 10px;
+                cursor: pointer;
+                margin-left: 3px;
+            }
+            button:hover{
+                background: #e7e7e7;
+            }
+        }
+        li:hover{
+            border-color:#eee;
+        }
+    }
+    .list_page{
+        height: 39px;
+        color:$c1;
+        font-size: 12px;
+        padding-left: 322px;
+        div{
+            padding:0 5px;
+            a{
+                color:$c1;
+            }
+            a:hover{
+                color:$c3;
+                text-decoration: underline;
+            }
+        }
+        
+        span{
+            margin-right: 15px;
+        }
+    }
+}

@@ -1,0 +1,158 @@
+.top {
+  height: 37px;
+  background: #F7F7F7;
+}
+
+.top span {
+  display: inline-block;
+  line-height: 37px;
+  font-size: 12px;
+  color: #444;
+}
+
+.top i {
+  color: #E91456;
+  font-weight: 600;
+}
+
+.top a {
+  display: inline-block;
+  font-size: 12px;
+  color: #444;
+  height: 37px;
+  line-height: 37px;
+  padding: 0 3px;
+}
+
+.top a:nth-of-type(1) {
+  margin-left: 65px;
+}
+
+.top a:hover {
+  color: #E91456;
+}
+
+.top .guide {
+  display: inline-block;
+}
+
+.nav {
+  box-sizing: border-box;
+  height: 107px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.nav .container {
+  height: 100%;
+}
+
+.nav form {
+  display: inline-block;
+  margin-left: 219px;
+  height: 34px;
+  padding-top: 20px;
+}
+
+.nav form input {
+  box-sizing: border-box;
+  width: 320px;
+  height: 34px;
+  padding-left: 3px;
+  color: #444;
+  border: 1px solid #E91456;
+  outline: none;
+}
+
+.nav form button {
+  box-sizing: border-box;
+  width: 81px;
+  height: 34px;
+  background: #E91456;
+  color: #fff;
+}
+
+.nav form button:hover {
+  background: #cc1c23;
+}
+
+.nav .cart {
+  position: relative;
+  box-sizing: border-box;
+  width: 158px;
+  height: 30px;
+  border: 1px solid #ccc;
+  margin: 20px 0 0 216px;
+  font-size: 12px;
+  color: #444;
+  line-height: 30px;
+}
+
+.nav .cart img {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.nav .cart .num {
+  position: absolute;
+  left: 44px;
+  top: 3px;
+  padding: 0;
+}
+
+.nav .cart span {
+  position: absolute;
+  left: 48px;
+  top: -5px;
+  color: #fff;
+}
+
+.spr {
+  box-sizing: border-box;
+  border-bottom: 2px solid #E91456;
+  position: relative;
+}
+
+.spr .list {
+  box-sizing: border-box;
+  width: 190px;
+  height: 34px;
+  line-height: 34px;
+  color: #fff;
+  background: #E91456;
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+.spr .list2 {
+  padding-top: 7px;
+  margin-right: 250px;
+}
+
+.spr .list2 a {
+  display: inline-block;
+  color: #444;
+  font-weight: 900;
+  width: 103px;
+  border-right: 2px solid #ccc;
+  text-align: center;
+}
+
+.spr .list2 a:hover {
+  color: #E91456;
+}
+
+.spr .list2 a:nth-of-type(1) {
+  color: #E91456;
+}
+
+.spr p {
+  font-size: 12px;
+  font-weight: 600;
+  height: 34px;
+  line-height: 34px;
+}
+
+.spr p span {
+  color: #E91456;
+}

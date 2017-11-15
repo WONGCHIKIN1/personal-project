@@ -1,0 +1,240 @@
+.top {
+  height: 37px;
+  background: #F7F7F7;
+}
+
+.top span {
+  display: inline-block;
+  line-height: 37px;
+  font-size: 12px;
+  color: #444;
+}
+
+.top i {
+  color: #E91456;
+  font-weight: 600;
+}
+
+.top a {
+  display: inline-block;
+  font-size: 12px;
+  color: #444;
+  height: 37px;
+  line-height: 37px;
+  padding: 0 3px;
+}
+
+.top a:nth-of-type(1) {
+  margin-left: 65px;
+}
+
+.top a:hover {
+  color: #E91456;
+}
+
+.top .guide {
+  display: inline-block;
+}
+
+.nav {
+  box-sizing: border-box;
+  height: 107px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.nav p {
+  color: #444;
+  border-left: 2px solid #ccc;
+  width: 85px;
+  display: inline-block;
+  padding-left: 15px;
+  margin: 30px 0 0 15px;
+}
+
+.nav .line {
+  width: 130px;
+  height: 4px;
+  background: #ccc;
+  position: relative;
+  margin-top: 41px;
+}
+
+.nav .line img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav .line span {
+  margin: 15px 0 0 40px;
+  font-size: 12px;
+  color: #444;
+}
+
+.nav .line:last-child {
+  background: #E91456;
+}
+
+.title {
+  color: #444;
+  height: 30px;
+  font-size: 14px;
+}
+
+.title a {
+  color: #FF0000;
+}
+
+.title a:hover {
+  text-decoration: underline;
+}
+
+.da_top {
+  height: 42px;
+  width: 100%;
+  background: #eee;
+  border: 1px solid #ccc;
+  line-height: 42px;
+  font-size: 14px;
+  color: #444;
+  padding-left: 5px;
+}
+
+.da_top span {
+  display: inline-block;
+}
+
+.da_top span:first-child {
+  width: 253px;
+}
+
+.da_top span:nth-child(2) {
+  width: 310px;
+}
+
+.da_top span:nth-child(3) {
+  width: 152px;
+}
+
+.da_top span:nth-child(4) {
+  width: 158px;
+}
+
+.da_top span:nth-child(5) {
+  width: 150px;
+}
+
+.da_bottom {
+  height: 130px;
+  width: 100%;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+
+.da_bottom .left {
+  font-size: 14px;
+  color: #444;
+  padding: 10px 0 0 10px;
+  width: 647px;
+}
+
+.da_bottom .left a {
+  color: #444;
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.da_bottom .center {
+  width: 231px;
+  border-right: 1px solid #ccc;
+  height: 100%;
+  font-size: 14px;
+  color: #444;
+  padding-top: 3px;
+}
+
+.da_bottom .center p {
+  height: 30px;
+  line-height: 30px;
+}
+
+.da_bottom .center p:last-child {
+  color: #E91456;
+  font-weight: 800;
+}
+
+.da_bottom .right {
+  width: 310px;
+  height: 100%;
+  padding: 86px 0 0 60px;
+}
+
+.da_bottom .right button {
+  width: 176px;
+  height: 32px;
+  background: #E91456;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.da_bottom .right button:hover {
+  background: #cc1c23;
+}
+
+.guess p {
+  height: 46px;
+  line-height: 46px;
+  color: #444;
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+.guess .ges_data {
+  height: 368px;
+  border: 1px solid #ccc;
+}
+
+.guess .ges_data .ges_item {
+  width: 240px;
+  height: 100%;
+  border: 1px solid #000;
+}
+
+.guess .ges_data .ges_item img {
+  width: 230px;
+  height: 230px;
+}
+
+.guess .ges_data .ges_item span {
+  display: block;
+  font-size: 12px;
+  color: #444;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 5px;
+}
+
+.guess .ges_data .ges_item p {
+  color: #E91456;
+}
+
+.guess .ges_data .ges_item div {
+  width: 100px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  border: 1px solid #ccc;
+  background: #F3F3F3;
+  margin-left: 70px;
+  font-size: 14px;
+  color: #444;
+  cursor: pointer;
+}
+
+.guess .ges_data .ges_item div:hover {
+  background: #e7e7e7;
+}
