@@ -74,6 +74,7 @@
   height: 34px;
   background: #E91456;
   color: #fff;
+  cursor: pointer;
 }
 
 .nav form button:hover {
@@ -90,6 +91,7 @@
   font-size: 12px;
   color: #444;
   line-height: 30px;
+  cursor: pointer;
 }
 
 .nav .cart img {
@@ -183,13 +185,13 @@
   height: 26px;
 }
 
-.list3 .sec p:nth-of-type(2) {
-  font-weight: 100;
+.list3 .sec p:nth-of-type(1) {
+  font-weight: 600;
 }
 
 .list3 .sec a {
   color: #fff;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .list3 .sec a:hover {
@@ -262,11 +264,32 @@
 
 .carousel {
   overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 480px;
 }
 
 .carousel img {
   transform: translateX(-297px);
-  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.carousel .cro_num {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+
+.carousel .cro_num li {
+  display: inline-block;
+  background: #000;
+  border-radius: 50%;
+  width: 20px;
+  margin-left: 5px;
 }
 
 .hot a {
@@ -289,30 +312,294 @@
 
 .hot .item_list1 {
   height: 332px;
-  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.hot .item_list1 .hot_item_list {
+  width: 230px;
+  height: 330px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid #eee;
+  margin-left: 18px;
+}
+
+.hot .item_list1 .hot_item_list img {
+  width: 228px;
+}
+
+.hot .item_list1 .hot_item_list p {
+  padding: 15px 5px;
+}
+
+.hot .item_list1 .hot_item_list p a {
+  color: #444;
+  font-size: 12px;
+}
+
+.hot .item_list1 .hot_item_list p a:hover {
+  text-decoration: underline;
+  color: #E91456;
+}
+
+.hot .item_list1 .hot_item_list span {
+  font-size: 14px;
+  color: #E91456;
+}
+
+.hot .item_list1 .hot_item_list:hover {
+  border-color: #ccc;
 }
 
 .hot .item_list2 {
   height: 331px;
-  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.hot .item_list2 .hot_item_list {
+  width: 230px;
+  height: 330px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid #eee;
+  margin-left: 18px;
+}
+
+.hot .item_list2 .hot_item_list img {
+  width: 228px;
+}
+
+.hot .item_list2 .hot_item_list p {
+  padding: 15px 5px;
+}
+
+.hot .item_list2 .hot_item_list p a {
+  color: #444;
+  font-size: 12px;
+}
+
+.hot .item_list2 .hot_item_list p a:hover {
+  text-decoration: underline;
+  color: #E91456;
+}
+
+.hot .item_list2 .hot_item_list span {
+  font-size: 14px;
+  color: #E91456;
+}
+
+.hot .item_list2 .hot_item_list:hover {
+  border-color: #ccc;
 }
 
 .hot .item_list3 {
   height: 520px;
+  overflow: hidden;
+}
+
+.hot .item_list3 .item_list2_l a, .hot .item_list3 .item_list2_c a {
+  padding: 0;
+}
+
+.hot .item_list3 .item_list2_r {
+  width: 612px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.hot .item_list3 .item_list2_r li {
+  width: 177px;
+  height: 260px;
+  padding: 4px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.hot .item_list3 .item_list2_r li img {
+  width: 167px;
+}
+
+.hot .item_list3 .item_list2_r li p {
+  padding: 10px 0;
+  height: 36px;
+}
+
+.hot .item_list3 .item_list2_r li p a {
+  font-size: 12px;
+  color: #444;
+}
+
+.hot .item_list3 .item_list2_r li p a:hover {
+  color: #E91456;
+  text-decoration: underline;
+}
+
+.hot .item_list3 .item_list2_r li span {
+  font-size: 14px;
+  color: #E91456;
+}
+
+.hot .item_list3 .item_list2_r li:hover {
   border: 1px solid #ccc;
 }
 
 .hot .item_list4 {
   height: 623px;
+  overflow: hidden;
+}
+
+.hot .item_list4 .item_list2_l a, .hot .item_list4 .item_list2_c a {
+  padding: 0;
+}
+
+.hot .item_list4 .item_list2_r {
+  width: 612px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.hot .item_list4 .item_list2_r li {
+  width: 177px;
+  height: 260px;
+  padding: 4px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.hot .item_list4 .item_list2_r li img {
+  width: 167px;
+}
+
+.hot .item_list4 .item_list2_r li p {
+  padding: 10px 0;
+  height: 36px;
+}
+
+.hot .item_list4 .item_list2_r li p a {
+  font-size: 12px;
+  color: #444;
+}
+
+.hot .item_list4 .item_list2_r li p a:hover {
+  color: #E91456;
+  text-decoration: underline;
+}
+
+.hot .item_list4 .item_list2_r li span {
+  font-size: 14px;
+  color: #E91456;
+}
+
+.hot .item_list4 .item_list2_r li:hover {
   border: 1px solid #ccc;
 }
 
 .hot .item_list5 {
   height: 520px;
+  overflow: hidden;
+}
+
+.hot .item_list5 .item_list2_l a, .hot .item_list5 .item_list2_c a {
+  padding: 0;
+}
+
+.hot .item_list5 .item_list2_r {
+  width: 612px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.hot .item_list5 .item_list2_r li {
+  width: 177px;
+  height: 260px;
+  padding: 4px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.hot .item_list5 .item_list2_r li img {
+  width: 167px;
+}
+
+.hot .item_list5 .item_list2_r li p {
+  padding: 10px 0;
+  height: 36px;
+}
+
+.hot .item_list5 .item_list2_r li p a {
+  font-size: 12px;
+  color: #444;
+}
+
+.hot .item_list5 .item_list2_r li p a:hover {
+  color: #E91456;
+  text-decoration: underline;
+}
+
+.hot .item_list5 .item_list2_r li span {
+  font-size: 14px;
+  color: #E91456;
+}
+
+.hot .item_list5 .item_list2_r li:hover {
   border: 1px solid #ccc;
 }
 
 .hot .item_list6 {
   height: 520px;
+  overflow: hidden;
+}
+
+.hot .item_list6 .item_list2_l a, .hot .item_list6 .item_list2_c a {
+  padding: 0;
+}
+
+.hot .item_list6 .item_list2_r {
+  width: 612px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.hot .item_list6 .item_list2_r li {
+  width: 177px;
+  height: 260px;
+  padding: 4px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.hot .item_list6 .item_list2_r li img {
+  width: 167px;
+}
+
+.hot .item_list6 .item_list2_r li p {
+  padding: 10px 0;
+  height: 36px;
+}
+
+.hot .item_list6 .item_list2_r li p a {
+  font-size: 12px;
+  color: #444;
+}
+
+.hot .item_list6 .item_list2_r li p a:hover {
+  color: #E91456;
+  text-decoration: underline;
+}
+
+.hot .item_list6 .item_list2_r li span {
+  font-size: 14px;
+  color: #E91456;
+}
+
+.hot .item_list6 .item_list2_r li:hover {
   border: 1px solid #ccc;
 }
