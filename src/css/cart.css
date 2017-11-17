@@ -30,10 +30,16 @@
 
 .top a:hover {
   color: #E91456;
+  text-decoration: underline;
 }
 
 .top .guide {
   display: inline-block;
+}
+
+.top .uname {
+  display: none;
+  margin-left: 50px;
 }
 
 .nav {
@@ -124,6 +130,11 @@
 
 .da_top span:nth-child(5) {
   width: 150px;
+}
+
+.good {
+  width: 100%;
+  height: 190px;
 }
 
 .da_bottom {

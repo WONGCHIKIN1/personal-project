@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-11-15 16:09:00
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-11-17 11:58:32
+* @Last Modified time: 2017-11-17 16:21:07
 */
 
 //因为jq和jqUI通过配置文件 因此不用写路径 
@@ -11,6 +11,7 @@ require(['config'],function(){
     require(['jquery','jqueryUI','common'],function($){
         $('.footer').load('../html/footer.html',function(){
                 $('button').on('click',function(){
+                    console.log(666,this)
                      //验证成功则用保存手机号码
                      let phoneNumber;
                      // //验证成功则用保存密码
@@ -61,7 +62,7 @@ require(['config'],function(){
                         success:function(res){
                             console.log(res);
                             //若存在手机号则报错且清空手机号和密码
-                            if(res == 'fail'){
+                            if(res === 'fail'){
                                 alert('操作失败！已存在手机号');
                                 $(':text').val('');
                                 $(':password').eq(0).val('');
@@ -72,9 +73,10 @@ require(['config'],function(){
                                 location.href = '../html/login.html';
                             }
                         }
-                    })
-                    
+                    });
                 });
+
+
         });
     });
 });

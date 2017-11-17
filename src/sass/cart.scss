@@ -27,10 +27,15 @@ $c3:#E91456;//粉色
     }
     a:hover{
         color:$c3;
+        text-decoration: underline;
     }
     .guide{
         display: inline-block;
         
+    }
+    .uname{
+        display:none;
+        margin-left: 50px;
     }
 }
 .nav{
@@ -107,6 +112,10 @@ $c3:#E91456;//粉色
     span:nth-child(5){
         width: 150px;
     }
+}
+.good{
+    width: 100%;
+    height: 190px;
 }
 .da_bottom{
     height: 130px;
