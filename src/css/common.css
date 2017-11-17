@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2017-11-10 11:25:36
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-11-13 19:37:21
+* @Last Modified time: 2017-11-17 10:33:25
 */
 
 /*清除浮动*/
@@ -41,6 +41,9 @@
 }
 .dib{
     display: inline-block;
+}
+.db{
+    display: block;
 }
 
 /*版心 提取 */

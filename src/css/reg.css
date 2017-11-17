@@ -53,12 +53,12 @@
 #reg .main .left {
   width: 435px;
   height: 100%;
+  padding-top: 20px;
 }
 
 #reg .main .left div {
   height: 55px;
   width: 100%;
-  line-height: 70px;
   font-size: 12px;
   padding-left: 36px;
 }
@@ -73,12 +73,17 @@
   height: 33px;
   padding-left: 5px;
   color: #444;
+  outline: none;
+}
+
+#reg .main .left div i {
+  padding-left: 82px;
+  color: red;
 }
 
 #reg .main .left p {
-  padding-left: 119px;
+  padding: 20px 0 0 119px;
   height: 57px;
-  line-height: 65px;
   font-size: 12px;
 }
 
@@ -91,6 +96,10 @@
   color: #e91456;
 }
 
+#reg .main .left p i {
+  color: red;
+}
+
 #reg .main .left button {
   width: 276px;
   height: 32px;
@@ -98,6 +107,7 @@
   line-height: 32px;
   color: #fff;
   margin-left: 119px;
+  cursor: pointer;
 }
 
 #reg .main .left button:hover {
